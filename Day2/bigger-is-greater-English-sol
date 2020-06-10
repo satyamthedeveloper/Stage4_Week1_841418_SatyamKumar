@@ -1,0 +1,81 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    // Complete the biggerIsGreater function below.
+    static String biggerIsGreater(String w) {
+        char[] charArray = w.toCharArray();
+        int size = charArray.length;
+        int[] intArray = new int[size];
+        for(int i=0; i<size; i++){
+            intArray[i] = (int)charArray[i];
+        }
+        
+        int head = size-1;
+        for(int i=size-1; i>0; i--){
+            if(intArray[i-1]>=intArray[i]){
+                head = i-1;
+            }
+            else
+                break;
+        }
+        
+        if(head == 0)
+            return "no answer";
+        
+        int pivot = size-1;
+        for(int i=size-1; i>=head; i--){
+            if(intArray[i] > intArray[head-1]){
+                pivot = i;
+                break;
+            }
+        }
+
+        int temp = intArray[head-1];
+        intArray[head-1] = intArray[pivot];
+        intArray[pivot] = temp;
+
+        int[] finalArray = new int[size];
+        for(int i=0; i<head; i++){
+            finalArray[i] = intArray[i];
+        }   
+        for(int i=head; i<size; i++){
+            finalArray[i] = intArray[size-1+head-i];
+        }
+
+        for(int i=0; i<size; i++){
+            charArray[i] = (char)finalArray[i];
+        }
+
+        String ans = new String(charArray);
+        return ans;
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int T = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        for (int TItr = 0; TItr < T; TItr++) {
+            String w = scanner.nextLine();
+
+            String result = biggerIsGreater(w);
+
+            bufferedWriter.write(result);
+            bufferedWriter.newLine();
+        }
+
+        bufferedWriter.close();
+
+        scanner.close();
+    }
+}
