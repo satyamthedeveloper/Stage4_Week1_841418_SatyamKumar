@@ -2,6 +2,7 @@ package com.cognizant.springlearn;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 import org.springframework.boot.SpringApplication;
@@ -20,6 +21,8 @@ public class SpringLearnApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringLearnApplication.class, args);
 		displayDate();
+		displayCountry();
+		displayCountries();
 	}
 	
 	public static void displayDate() {
@@ -39,5 +42,20 @@ public class SpringLearnApplication {
 		LOGGER.info("END");
 	}
 
+	public static void displayCountry() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+		Country country = (Country) context.getBean("country", Country.class);
+		Country anotherCountry = context.getBean("country", Country.class);
+		LOGGER.debug("Country : {}", country.toString());
+	}
 	
+	public static void displayCountries() {
+		LOGGER.info("display Countries START");
+		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+		ArrayList<Country> array =  context.getBean("countryList", java.util.ArrayList.class);
+		for (Country country : array) {
+			LOGGER.debug("Country: {}", country.toString());
+		}
+		LOGGER.info("display countries END");
+	}
 }
