@@ -16,4 +16,9 @@
 <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="java.lang.Throwable"/>
 <fullyQualifiedTypeName name="com.cognizant.springlearn.service.exception"/>
+<fullyQualifiedTypeName name="com.cognizant.springlearn.controller.CountryController"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc"/>
+<fullyQualifiedTypeName name="org.springframework.test.web.servlet.MockMvc"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
 </qualifiedTypeNameHistroy>

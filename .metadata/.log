@@ -258,3 +258,727 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 12:28:44.233
 !MESSAGE executing callback sts4.classpath.DYwKecCI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 14:43:39.164
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DYwKecCI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 14:43:39.165
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DYwKecCI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 14:43:39.166
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 14:43:39.166
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DYwKecCI => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-06-13 14:43:40.023
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-06-13 17:18:39.565 -----------------------------------------------
+eclipse.buildId=4.6.2.202005250833-RELEASE
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2020-06-13 17:18:44.855
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-13 17:18:44.855
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-06-13 17:18:47.150
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-13 17:18:47.150
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a6ef712,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@98712fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:18:52.596
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:18:52.597
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5cf6ba1c[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:18:52.600
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:18:52.654
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-06-13 17:18:56.316
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\satya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:01.923
+!MESSAGE Boot LS startup time from start to initialized: 9292ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.010
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TWIsNrVCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.013
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.014
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.017
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.020
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.021
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.021
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.022
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TWIsNrVC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.038
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.044
+!MESSAGE buffering callback sts4.classpath.TWIsNrVC spring-learn false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.045
+!MESSAGE executing callback sts4.classpath.TWIsNrVC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:19:02.148
+!MESSAGE executing callback sts4.classpath.TWIsNrVC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:21:23.017
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TWIsNrVC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:21:23.018
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TWIsNrVC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:21:23.019
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:21:23.020
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TWIsNrVC => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-06-13 17:28:40.616
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:26.996
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:29.907
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:31.614
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:33.396
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:35.215
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:37.347
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:39.523
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:41.163
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:42.997
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:44.775
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:45.811
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:47.187
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:48.646
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:55.020
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:56.487
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:58.308
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:29:59.553
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.621
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.628
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.633
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.639
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.646
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.652
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.658
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.665
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.672
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.678
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.685
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.692
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.699
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.705
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.712
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.720
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.727
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.734
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.740
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.747
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.752
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.759
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.765
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.772
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.778
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.784
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.792
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.797
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.802
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.808
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.813
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.819
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.825
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.830
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.836
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.842
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.848
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.855
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.862
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.867
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.874
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.879
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.884
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.890
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.895
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.902
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.907
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.912
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.918
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.922
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.927
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.932
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.937
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.941
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.945
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.951
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.956
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.962
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.967
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.973
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.978
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.983
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.990
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:01.995
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.001
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.009
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.017
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.024
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.030
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.036
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.042
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.047
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.053
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.058
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.063
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.069
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-06-13 17:30:02.074
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/demo
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-13 17:49:13.852
+!MESSAGE Launch configuration SpringLearnApplication references non-existing project spring-learn.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplication references non-existing project spring-learn.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:450)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:476)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-06-13 17:49:13.852
+!MESSAGE Launch configuration SpringLearnApplication references non-existing project spring-learn.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-13 17:49:13.878
+!MESSAGE Launch configuration SpringLearnApplication references non-existing project spring-learn.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplication references non-existing project spring-learn.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:451)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:476)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-06-13 17:49:13.878
+!MESSAGE Launch configuration SpringLearnApplication references non-existing project spring-learn.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-13 17:49:13.883
+!MESSAGE Launch configuration SpringLearnApplication references non-existing project spring-learn.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplication references non-existing project spring-learn.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2141)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:452)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:476)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-06-13 17:49:13.883
+!MESSAGE Launch configuration SpringLearnApplication references non-existing project spring-learn.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-13 17:49:13.886
+!MESSAGE Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:450)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:476)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-06-13 17:49:13.887
+!MESSAGE Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-13 17:49:13.889
+!MESSAGE Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:451)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:476)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-06-13 17:49:13.889
+!MESSAGE Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-13 17:49:13.895
+!MESSAGE Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2141)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:452)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:476)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1373)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-06-13 17:49:13.895
+!MESSAGE Launch configuration SpringLearnApplicationTests references non-existing project spring-learn.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:36.630
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:36.630
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5cf6ba1c[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:36.631
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.344
+!MESSAGE Boot LS startup time from start to initialized: 3711ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.398
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yypnACRmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.399
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.399
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.400
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.400
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.401
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.401
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.401
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yypnACRm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.407
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.412
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.412
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.421
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.426
+!MESSAGE buffering callback sts4.classpath.yypnACRm employeeManagement false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.427
+!MESSAGE executing callback sts4.classpath.yypnACRm 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 17:57:40.491
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:29:58.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:29:58.149
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:29:58.154
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:29:58.154
+!MESSAGE executing callback sts4.classpath.yypnACRm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:29:58.171
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:30:01.598
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:30:01.606
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:30:01.611
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:30:01.611
+!MESSAGE executing callback sts4.classpath.yypnACRm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:30:01.620
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:31:05.295
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:31:05.303
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:31:05.309
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:31:05.309
+!MESSAGE executing callback sts4.classpath.yypnACRm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:31:05.332
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:01.611
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:01.620
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:01.625
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:01.626
+!MESSAGE executing callback sts4.classpath.yypnACRm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:01.634
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:06.728
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:06.754
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:06.760
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:06.760
+!MESSAGE executing callback sts4.classpath.yypnACRm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:06.776
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:08.156
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:08.163
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:08.168
+!MESSAGE buffering callback sts4.classpath.yypnACRm spring-learn false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:08.169
+!MESSAGE executing callback sts4.classpath.yypnACRm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:08.343
+!MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
