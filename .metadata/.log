@@ -982,3 +982,15 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringLearnApplicat
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 20:38:08.343
 !MESSAGE executing callback sts4.classpath.yypnACRm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 23:11:34.568
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yypnACRm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 23:11:34.569
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yypnACRm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 23:11:34.569
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-13 23:11:34.570
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yypnACRm => OK
