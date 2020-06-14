@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+    <bean id="m1" class="com.cognizant.truYum.model.MenuItem">  
+        <property name="id" value="1"/>
+        <property name="name" value="Aloo Parathe"/>
+        <property name="price" value="85.00"/>
+        <property name="active" value="1"/>
+        <property name="dateOfLaunch" value="08/15/2018"/>
+        <property name="category" value="Breakfast"/>
+        <property name="freeDelivery" value="0"></property>
+    </bean>
+    
+    <bean id="m2" class="com.cognizant.truYum.model.MenuItem">  
+        <property name="id" value="2"/>
+        <property name="name" value="Sahee Paneer"/>
+        <property name="price" value="185.00"/>
+        <property name="active" value="1"/>
+        <property name="dateOfLaunch" value="06/10/2015"/>
+        <property name="category" value="Main Course"/>
+        <property name="freeDelivery" value="0"></property>
+    </bean>
+    
+    <bean id="menuList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="m1"></ref>
+                <ref bean="m2"></ref>
+            </list>
+        </constructor-arg>
+    </bean>
+    
+</beans>
