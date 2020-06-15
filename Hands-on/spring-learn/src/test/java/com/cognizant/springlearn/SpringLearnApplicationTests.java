@@ -5,8 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.MediaType;
-
 import com.cognizant.springlearn.controller.CountryController;
 import com.cognizant.springlearn.controller.EmployeeController;
 
@@ -72,11 +70,12 @@ class SpringLearnApplicationTests {
 		requestParams.add("permanent","temporary");
 		requestParams.add("dateOfBirth","12/06/1999");
 		
-		ResultActions actions = mvc.perform(post("/employies")
-				.contentType(MediaType.APPLICATION_JSON).params(requestParams)).andDo(print());
+		ResultActions actions = mvc.perform(post("/employees").params(requestParams)
+				.contentType("application/json")).andDo(print());
 				
 		
 		actions.andExpect(status().isOk());
+		
 	}
 	
 	

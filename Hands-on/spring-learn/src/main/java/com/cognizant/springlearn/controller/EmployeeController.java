@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -21,24 +22,30 @@ import com.cognizant.springlearn.service.EmployeeService;
 @RequestMapping("/employees")
 public class EmployeeController {
 
+	@Autowired
+	private EmployeeService employeeService;
+
+	public EmployeeController(EmployeeService employeeService) {
+		super();
+		this.employeeService = employeeService;
+	}
+
 	@PostMapping
 	public void updateEmployee(@RequestBody @Valid Employee employee) throws EmployeeNotFoundException {
 
-		EmployeeService es = new EmployeeService();
-		es.updateEmployee(employee);
+		employeeService.updateEmployee(employee);
 	}
-	
+
 	@GetMapping
 	public ArrayList<Employee> getAllEmployees() {
-		
-		return EmployeeService.getAllEmployees();
+
+		return employeeService.getAllEmployees();
 	}
-	
+
 	@DeleteMapping
 	public void deleteEmployee(@RequestBody @Valid Employee employee) throws EmployeeNotFoundException {
 
-		EmployeeService es = new EmployeeService();
-		es.deleteEmployee(employee);
+		employeeService.deleteEmployee(employee);
 	}
 
 }

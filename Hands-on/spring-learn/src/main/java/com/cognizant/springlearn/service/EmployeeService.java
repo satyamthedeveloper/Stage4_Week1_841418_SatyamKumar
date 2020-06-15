@@ -25,7 +25,7 @@ public class EmployeeService {
 	}
 
 
-	public static ArrayList<Employee> getAllEmployees(){
+	public ArrayList<Employee> getAllEmployees(){
 		LOGGER.debug("inside servicec.getAllEmployees()");
 		return EmployeeDao.getAllEmployees();
 	}
