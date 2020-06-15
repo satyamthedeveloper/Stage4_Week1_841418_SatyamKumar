@@ -1,5 +1,7 @@
 package com.cognizant.truYum.controller;
 
+import java.util.ArrayList;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cognizant.truYum.model.MenuItem;
 import com.cognizant.truYum.service.CartService;
 
 
@@ -31,10 +34,9 @@ public class CartController {
 	}
 	
 	@GetMapping("/{userId}")
-	public void getAllCartItems(@PathVariable("userID") String userId) {
+	public ArrayList<MenuItem> getAllCartItems(@PathVariable("userID") String userId) {
 		LOGGER.info("addCart controller Start");
-		cartService.getAllCartItems(userId);
-		LOGGER.info("addCart controller Ends");
+		return cartService.getAllCartItems(userId);
 	}
 	
 	@DeleteMapping("/{userId}/{menuItemId}")

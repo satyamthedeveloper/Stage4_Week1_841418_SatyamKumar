@@ -1,10 +1,14 @@
 package com.cognizant.truYum.dao;
 
+import java.util.ArrayList;
+
+import com.cognizant.truYum.model.MenuItem;
+
 public interface CartDao {
 
 	void addCartItem(String userId, int menuItemId);
 
-	void getAllCartItems(String userId);
+	ArrayList<MenuItem> getAllCartItems(String userId);
 
 	void deleteCartItem(String userId, int menuItemId);
 
