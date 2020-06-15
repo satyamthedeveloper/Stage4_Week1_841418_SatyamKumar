@@ -15,4 +15,10 @@ public interface movieDao {
 
 	ArrayList<movie> getActiveMoviesCustomer() throws ParseException;
 
+	ArrayList<movie> getFavoriteMoviesCustomer(String userId);
+
+	void addFavoriteMovieCustomer(String userId, int movieId);
+
+	void removeFavoriteMovieCustomer(String userId, int movieId);
+
 }

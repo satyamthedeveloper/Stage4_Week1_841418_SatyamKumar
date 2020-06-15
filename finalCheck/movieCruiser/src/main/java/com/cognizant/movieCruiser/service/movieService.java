@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cognizant.movieCruiser.MovieCruiserApplication;
 import com.cognizant.movieCruiser.dao.movieDao;
 import com.cognizant.movieCruiser.model.movie;
 
@@ -17,9 +16,9 @@ public class movieService {
 
 	@Autowired
 	private movieDao md;
-	
+
 	private static final Logger LOGGER = LoggerFactory.getLogger(movieService.class);
-	
+
 	public ArrayList<movie> getAllMoviesAdmin() {
 		// TODO Auto-generated method stub
 		LOGGER.debug("movieService Starts");
@@ -30,7 +29,7 @@ public class movieService {
 		// TODO Auto-generated method stub
 		LOGGER.debug("START");
 		md.editMovieAdmin(updateMovie, movieId);
-		
+
 	}
 
 	public ArrayList<movie> getAllMoviesCustomer() {
@@ -43,6 +42,26 @@ public class movieService {
 		// TODO Auto-generated method stub
 		LOGGER.debug("START");
 		return md.getActiveMoviesCustomer();
+	}
+
+	public ArrayList<movie> getFavoriteMoviesCustomer(String userId) {
+		// TODO Auto-generated method stub
+		LOGGER.debug("START");
+		return md.getFavoriteMoviesCustomer(userId);
+	}
+
+	public void addFavoriteMovieCustomer(String userId, int movieId) {
+		// TODO Auto-generated method stub
+		LOGGER.debug("START");
+		md.addFavoriteMovieCustomer(userId, movieId);
+		LOGGER.debug("END");
+	}
+
+	public void removeFavoriteMovieCustomer(String userId, int movieId) {
+		// TODO Auto-generated method stub
+		LOGGER.debug("START");
+		md.removeFavoriteMovieCustomer(userId, movieId);
+		LOGGER.debug("END");
 	}
 
 }
